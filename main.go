@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/davecgh/go-spew/spew"
+)
 
 func main() {
-	fmt.Println("Test...")
+	x := 123
+	spew.Dump(x)
 }
